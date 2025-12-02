@@ -1,0 +1,15 @@
+# This file is for local development
+# keep KV Namespace and env vars that **don't** start with NEXT_PUBLIC_ here
+
+name = "oneportal"
+compatibility_date = "2025-09-23"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
+
+[[kv_namespaces]]
+binding = "OPT_KV"
+
+[vars]
+USER_PRINCIPLE_NAME = "support@matusalem.com" # replace it
+BASE_DIRECTORY = "/"
+#MAX_ITEMS = "100"
